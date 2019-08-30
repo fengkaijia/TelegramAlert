@@ -19,5 +19,6 @@ deploy:
   draft: true
   on:
     tags: true
+    branch: 2.x
     #jdk: openjdk8
     repo: irgendwr/TelegramAlert

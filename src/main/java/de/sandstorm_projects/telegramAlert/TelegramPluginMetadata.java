@@ -43,8 +43,7 @@ public class TelegramPluginMetadata implements PluginMetaData {
 
     @Override
     public Version getRequiredVersion() {
-        return Version.from(2, 4, 0);
-        //return Version.fromPluginProperties(getClass(), PLUGIN_PROPERTIES, "graylog.version", Version.from(2, 4, 0, "unknown"));
+        return Version.fromPluginProperties(getClass(), PLUGIN_PROPERTIES, "graylog.version", Version.from(2, 5, 0, "unknown"));
     }
 
     @Override

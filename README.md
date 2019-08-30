@@ -7,9 +7,11 @@
 
 TelegramAlert allows you to send [Graylog](https://www.graylog.org) alert messages to a specified [Telegram](https://telegram.org) chat.
 
+Note: This branch is **deprecated** and should only be used if you still have to use Graylog v2.x. For the latest versions (Graylog v3.x+) you should check out the master branch.
+
 ## Requirements
 
-Requires Graylog 2.4 or later. It's recommended to use the [latest Graylog release](https://www.graylog.org/products/latestversion).
+Requires Graylog 2.5.2 or later.
 
 ## Installation
 
